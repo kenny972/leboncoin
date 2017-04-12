@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+}
+
+
+header{
+	background-color: #F56B2A;
+	width: 100%;
+}
+
+div{
+	display: flex;
+}
+
+.logo{
+	margin: 10px;
+	width: 20%;
+	display: inline-block;
+	vertical-align: middle;
+	width: 140px;
+	height: 40px;
+}
+
+.navheader{
+	
+	width: 75%;
+	display: flex;
+	color: white;
+}
+
+li{
+	list-style: none;
+	font-size: 12px;
+	margin-top: 30px;
+}
+
