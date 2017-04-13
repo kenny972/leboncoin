@@ -37,12 +37,27 @@ header{
 .pmobile{
 	display: block;
 	font-weight: bold;
-	font-size: 12px;
-	margin: 2em;
+	text-align: center;
+	font-size: 11px;
+	margin: 1em;
 }
 
 .ptablet{
 	display: none;
+}
+
+.annoncesrecherche{
+	margin: 25px;
+}
+
+.annonce, .recherche{
+	margin:6px;
+}
+
+.mapimg{
+	background-color: red;
+	height: 350px;
+
 }
 
 
