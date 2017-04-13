@@ -48,6 +48,7 @@ header{
 
 .annoncesrecherche{
 	margin: 25px;
+	margin-bottom: 1em;
 }
 
 .annonce, .recherche{
@@ -55,9 +56,13 @@ header{
 }
 
 .mapimg{
-	background-color: red;
 	height: 350px;
+	margin:25px;
+	margin-top:39px;
+}
 
+.listederoulante{
+	background-color: red;
 }
 
 
