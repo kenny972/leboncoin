@@ -26,6 +26,26 @@ header{
 	height: 40px;
 }
 
+.navheader{
+	display: none;
+}
+
+.connexionaside{
+	display: none;
+}
+
+.pmobile{
+	display: block;
+	font-weight: bold;
+	font-size: 12px;
+	margin: 2em;
+}
+
+.ptablet{
+	display: none;
+}
+
+
 /**************************************************************************************************************
 ********************************************Tablets***********************************************************/
 @media (min-width: 768px){
@@ -34,20 +54,60 @@ header{
 	margin-left: 250px;
 }	
 	
+.navheader{
+	display: none;
+}
 
+.connexionaside{
+	display: none;
+}
 
+.pmobile{
+	display: none;
+}
 
+.ptablette{
+	display: block;
+}
 
+}
 
+/*************************************************************************************************************
+********************************************Desktop********************************************************
+*/
 
+@media (min-width: 1280px){
 
+.container{
+	display: flex;
+}	
 
+.navheader{
+	display: flex;
+	justify-content: space-between;
+}
+	
+.menuarticle{
+	display: none;
+}
 
+.logoaside{
+	margin-right: 10em;
+}
+
+.navheader{ /*Navigation dans le header avec : Accueil, Déposer une annonce, offres, demandes, mes annonces,
+ boutique;*/
+ 	display: block;
+ 	color: black;
+}
+
+li{
+	list-style-type: none;	
 }
 
 
 
 
-
+}
 
 
