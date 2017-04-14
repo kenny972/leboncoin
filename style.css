@@ -3,6 +3,7 @@
 	padding: 0;
 }
 
+/*star of the header*/
 header{
 	background-color: #F56B2A;
 	height: 55px;
@@ -16,24 +17,30 @@ header{
 
 .menu{
 	padding: 7px;
-
 }
-
+/*logo "leboncoin"*/
 .logo{
 	margin-left: 1em;
 	padding: 4px;
 	width: 140px;
 	height: 40px;
 }
+/*fin du logo "leboncoin"*/
 
+/*navigation du header: Accueil/Déposer une annonce/Offre/DEmande/Mes annonces/Boutiques*/
 .navheader{
 	display: none;
 }
+/* fin de la navigation du header: Accueil/Déposer une annonce/Offre/DEmande/Mes annonces/Boutiques*/
+
 
 .connexionaside{
 	display: none;
 }
+/*end of the header*/
 
+
+/*paragrahe pour la version mobile: En dessous du header*/
 .pmobile{
 	display: block;
 	font-weight: bold;
@@ -41,30 +48,76 @@ header{
 	font-size: 11px;
 	margin: 1em;
 }
+/*fin du paragraphe pour la version mobile en dessous du header*/
 
+
+/*paragraphe tablette invisible en version mobile*/
 .ptablet{
 	display: none;
 }
+/*fin du paragraphe invisible de la version mobile*/
 
+/*section qui comporte les deux bouttons :blanc et bleu*/
 .annoncesrecherche{
 	margin: 25px;
 	margin-bottom: 1em;
 }
+/*fin de la section qui comporte les deux bouttons: blanc et bleu*/
 
+/*Boutton bleu et boutton blanc : "déposer une annonce" et "rechercher autour de moi"*/
 .annonce, .recherche{
 	margin:6px;
 }
+/*fin du boutton bleu et du boutton blanc*/
 
+
+/*map de la FRance*/
 .mapimg{
 	height: 350px;
 	margin:25px;
 	margin-top:39px;
 }
+/*fin de la map France*/
 
-.listederoulante{
-	background-color: red;
+/*selecteur de la liste déroulante*/
+select{
+	height: 50px;
+	width: 100%;
+	padding: 1em;
+	padding-top: 5px;
 }
+/*fin du sélecteur de la liste déroulante*/
 
+/*paragraphe d'avant footer*/
+.avantfooter{
+	margin: 1em;
+	text-align: center;
+	font-size: 14px;
+	font-family: inherit;
+}
+/*fin du paragraphe d'avant footer*/
+
+
+/*star of the footer*/
+
+/*uniquement valable pour la partie mobile*/
+.footermobile{
+	background-color: #474747;
+	padding: 30px;
+	height: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+/*fin de cette validité uniquement pour la partie mobile*/
+
+
+/*paragraphe dans le footer: leboncoin 2006 - 2017*/
+.pfooter{
+	color: white;
+}
+/* fin du paragraphe dans le footer: leboncoin 2006 - 2017*/
+
+/*end of the footer*/
 
 /**************************************************************************************************************
 ********************************************Tablets***********************************************************/
