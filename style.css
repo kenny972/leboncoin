@@ -175,8 +175,13 @@ body{
 }
 /*fin des bouttons d'annonces et recherches*/
 
-
-
+/*map de FRance*/
+.mapimg{
+	height: 750px;
+	margin:25px;
+	margin-top:39px;
+}
+/*fin de la map FRance*/
 
 
 }
