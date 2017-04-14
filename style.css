@@ -3,6 +3,15 @@
 	padding: 0;
 }
 
+/*star of the body*/
+body{
+	background-color: #FAFAFA;
+}
+
+/*end of the body*/
+
+
+
 /*star of the header*/
 header{
 	background-color: #F56B2A;
@@ -123,6 +132,13 @@ select{
 ********************************************Tablets***********************************************************/
 @media (min-width: 768px){
 
+/*star of the body*/
+body{
+	background-color: #FAFAFA;
+}
+/*end of the body*/
+
+/*star of the header*/
 .logo{
 	margin-left: 250px;
 }	
@@ -134,14 +150,34 @@ select{
 .connexionaside{
 	display: none;
 }
+/*end of the header*/
 
+
+/*paragraphe mobile*/
 .pmobile{
 	display: none;
 }
+/*fin du paragraphe mobile*/
 
+
+/*paragraphe tablette*/
 .ptablette{
 	display: block;
 }
+/*fin du paragraphe tablette*/
+
+/*bouttons d'annonces et recherches*/
+.annoncesrecherche{
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+/*fin des bouttons d'annonces et recherches*/
+
+
+
+
 
 }
 
