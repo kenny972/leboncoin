@@ -142,6 +142,53 @@ select{
 	border-bottom: 1px solid #ccc;
 }
 
+/*************************************************************************************************************
+*******************************************Offres************************************************************/
+.titleannonce{
+	margin-top: 1em;
+	background-color: #F56B2A;
+	font-size: 1em;
+	padding-top: 1em;
+	height: 30px;
+	text-align: center;
+	color: white;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+.orange{
+	border: 2px solid #f56b2a;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+.list{
+	color: #419AEE;
+	width: 320px;
+	margin-left: 1em;
+}
+
+.trier{
+	margin-left: 1em;
+	padding-top: 2em;
+}
+
+.selectPage{
+	margin: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em; 
+	width: 4em;
+	text-align: center;
+	margin-left: 10em;
+}
+
+.footermobile{
+	background-color: #474747;
+	padding: 30px;
+	height: 20px;
+	display: flex;
+	justify-content: space-between;
+}
 
 
 
