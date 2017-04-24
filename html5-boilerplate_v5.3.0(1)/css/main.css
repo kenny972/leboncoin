@@ -95,6 +95,462 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*star of the body*/
+body{
+    background-color: #FAFAFA;
+}
+
+/*end of the body*/
+
+
+
+/*star of the header*/
+header{
+    background-color: #F56B2A;
+    height: 55px;
+    width: 100%;
+}
+
+.menulogo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu{
+    padding: 7px;
+}
+/*logo "leboncoin"*/
+.logo{
+    margin-left: 1em;
+    padding: 4px;
+    width: 140px;
+    height: 40px;
+}
+/*fin du logo "leboncoin"*/
+
+/*navigation du header: Accueil/Déposer une annonce/Offre/DEmande/Mes annonces/Boutiques*/
+.navheader{
+    display: none;
+}
+/* fin de la navigation du header: Accueil/Déposer une annonce/Offre/DEmande/Mes annonces/Boutiques*/
+
+
+.connexionaside{
+    display: none;
+}
+/*end of the header*/
+
+
+/*paragrahe pour la version mobile: En dessous du header*/
+.pmobile{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 11px;
+    margin: 1em;
+}
+/*fin du paragraphe pour la version mobile en dessous du header*/
+
+
+/*tablette et desktop invisible en version mobile*/
+.ptablet{
+    display: none;
+}
+
+.pdesktop{
+    display: none;
+}
+
+.dep{
+    display: none;
+}
+
+.divfooter{
+    display: none;
+}
+/*fin du paragraphe invisible de la version mobile*/
+
+/*section qui comporte les deux bouttons :blanc et bleu*/
+.annoncesrecherche{
+    margin: 25px;
+    margin-bottom: 1em;
+}
+/*fin de la section qui comporte les deux bouttons: blanc et bleu*/
+
+/*Boutton bleu et boutton blanc : "déposer une annonce" et "rechercher autour de moi"*/
+.annonce, .recherche{
+    margin:6px;
+}
+/*fin du boutton bleu et du boutton blanc*/
+
+
+/*map de la FRance*/
+.mapimg{
+    height: 350px;
+    margin:25px;
+    margin-top:39px;
+}
+/*fin de la map France*/
+
+/*selecteur de la liste déroulante*/
+select{
+    height: 50px;
+    width: 100%;
+    padding: 1em;
+    padding-top: 5px;
+}
+/*fin du sélecteur de la liste déroulante*/
+
+/*paragraphe d'avant footer*/
+.avantfooter{
+    margin: 1em;
+    text-align: center;
+    font-size: 14px;
+    font-family: inherit;
+}
+/*fin du paragraphe d'avant footer*/
+
+
+/*star of the footer*/
+
+/*uniquement valable pour la partie mobile*/
+.footermobile{
+    background-color: #474747;
+    padding: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+/*fin de cette validité uniquement pour la partie mobile*/
+
+
+/*paragraphe dans le footer: leboncoin 2006 - 2017*/
+.pfooter{
+    color: white;
+}
+/* fin du paragraphe dans le footer: leboncoin 2006 - 2017*/
+
+/*end of the footer*/
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////Page déposer une annonce////////////////////////////////////////////*/
+
+.grey{
+    color: #989898;
+    font-family: "OpenSansBold",sans-serif;
+    font-size: 18px;
+    margin:10px;
+    margin-top: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////Offres//////////////////////////////////////////////////////////////*/
+.titleannonce{
+    margin-top: 1em;
+    background-color: #F56B2A;
+    font-size: 1em;
+    padding-top: 1em;
+    height: 30px;
+    text-align: center;
+    color: white;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.orange{
+    border: 2px solid #f56b2a;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.list{
+    color: #419AEE;
+    width: 320px;
+    margin-left: 1em;
+}
+
+.trier{
+    margin-left: 1em;
+    padding-top: 2em;
+}
+
+.selectPage{
+    margin: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em; 
+    width: 4em;
+    text-align: center;
+    margin-left: 10em;
+}
+
+.footermobile{
+    background-color: #474747;
+    padding: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/**************************************************************************************************************
+********************************************Tablets***********************************************************/
+@media (min-width: 768px){
+
+/*star of the body*/
+body{
+    background-color: #FAFAFA;
+}
+/*end of the body*/
+
+/*star of the header*/
+.logo{
+    margin-left: 250px;
+}   
+    
+.navheader{
+    display: none;
+}
+
+.connexionaside{
+    display: none;
+}
+/*end of the header*/
+
+
+/*paragraphe mobile*/
+.pmobile{
+    display: none;
+}
+/*fin du paragraphe mobile*/
+
+
+/*paragraphe tablette*/
+.ptablette{
+    display: block;
+}
+/*fin du paragraphe tablette*/
+
+/*bouttons d'annonces et recherches*/
+.annoncesrecherche{
+    display:flex;
+    align-items: center;
+}
+/*fin des bouttons d'annonces et recherches*/
+
+/*map de FRance*/
+.mapimg{
+    height: 750px;
+    margin:25px;
+    margin-top:39px;
+}
+/*fin de la map FRance*/
+
+/*début du select: Défilement*/
+select{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+/*fin du select*/
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////Offres tablettes//////////////////////////////////////////*/
+
+.list{
+    margin: 1em;
+    color: #419AEE;
+    width: 740px;
+    
+}
+
+
+
+}
+
+
+
+/*************************************************************************************************************
+********************************************Desktop********************************************************
+*/
+
+@media (min-width: 1280px){
+
+/*star of the header*/
+.menuarticle{
+    display: none;
+}
+
+.navheader{
+    display: flex;
+
+}
+
+.connexionaside{
+    display: block;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #F56B2A;
+    height: 60px;
+}
+
+.navheader a{
+    text-decoration: none;
+    padding: 2em; 
+    font-size: 13px;
+}
+
+.navheader a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.logo{
+    margin:0;
+}
+
+.logoaside{
+    padding-left: 1em;
+}
+
+
+li{
+    list-style-type: none;
+    color: white;   
+    padding: 8px;
+}
+
+/*end of the header*/
+
+/*paragraphe version desktop*/
+.pdesktop{
+    display: block;
+    margin: 2em;
+}
+/*fin du paragraphe*/
+
+/*bouttons d'annonce et de recherche*/
+.annoncesrecherche{
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+
+.annoncesrecherche{
+    display: flex;
+    align-items:flex-start;
+}
+/*fin des bouttons d'annonce et de recherche*/
+
+/*star of the big div*/
+.bigdiv{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*image de la map*/
+.mapimg{
+    width: 368px;
+    height: 450px;
+
+}
+/*fin de l'image de la map*/
+
+/*article qui contient la map*/
+.mapclass{
+    margin-right:10em;
+}
+/*fin de l'article qui contient la map*/
+
+
+/*les départements*/
+.dep{
+    display: block;
+}
+/*fin des départements*/
+
+/* easy sont les liens dans l'article dep des départements*/
+.easy{
+    color: #336699;
+    font-weight: bold;
+    font-size: 13px;
+    }
+/*fin du easy*/
+
+ul a{
+    text-decoration: none;
+}
+
+.avantfooter{
+    display: block;
+}
+
+/*star of div for the footer*/
+.divfooter{
+    display: none;
+}
+
+
+.divfooter{
+    background: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+}
+/*end of div for the footer*/
+
+.footermobile{
+    display: none;
+}
+
+
+/*.fauxfooter{
+
+    background-color: #474747;
+    display: flex;
+    justify-content: space-around;
+}*/
+
+
+
+h3{
+    color: white;
+}
+
+
+}
+/*end of the big div*/
+
+
+
+/******************************************************none***************/
+
+
+section{
+    display: none;
+}
+
+
+
+
+
+
+/*}*/
+
+
 
 
 

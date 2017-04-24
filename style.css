@@ -60,8 +60,20 @@ header{
 /*fin du paragraphe pour la version mobile en dessous du header*/
 
 
-/*paragraphe tablette invisible en version mobile*/
+/*tablette et desktop invisible en version mobile*/
 .ptablet{
+	display: none;
+}
+
+.pdesktop{
+	display: none;
+}
+
+.dep{
+	display: none;
+}
+
+.divfooter{
 	display: none;
 }
 /*fin du paragraphe invisible de la version mobile*/
@@ -190,10 +202,6 @@ select{
 }
 
 
-
-
-
-
 /**************************************************************************************************************
 ********************************************Tablets***********************************************************/
 @media (min-width: 768px){
@@ -221,7 +229,7 @@ body{
 
 /*paragraphe mobile*/
 .pmobile{
-	display: none;
+	display: block;
 }
 /*fin du paragraphe mobile*/
 
@@ -235,8 +243,6 @@ body{
 /*bouttons d'annonces et recherches*/
 .annoncesrecherche{
 	display:flex;
-	justify-content: center;
-	flex-direction: column;
 	align-items: center;
 }
 /*fin des bouttons d'annonces et recherches*/
@@ -306,7 +312,6 @@ header{
 
 .navheader a{
 	text-decoration: none;
-	/*padding: 1em;*/
 	padding: 2em; 
 	font-size: 13px;
 }
@@ -325,8 +330,6 @@ header{
 }
 
 
-
-
 li{
 	list-style-type: none;
 	color: white;	
@@ -337,35 +340,115 @@ li{
 
 /*paragraphe version desktop*/
 .pdesktop{
+	display: block;
 	margin: 2em;
 }
 /*fin du paragraphe*/
 
-
+/*bouttons d'annonce et de recherche*/
 .annoncesrecherche{
 	display: block;
+	display: flex;
+	flex-direction: column;
+}
+
+.annoncesrecherche{
+	display: flex;
+	align-items:flex-start;
+}
+/*fin des bouttons d'annonce et de recherche*/
+
+/*star of the big div*/
+.bigdiv{
+	display: flex;
+	justify-content: space-between;
 
 }
+
+/*image de la map*/
+.mapimg{
+	width: 368px;
+	height: 450px;
+
+}
+/*fin de l'image de la map*/
+
+/*article qui contient la map*/
+.mapclass{
+	margin-right:10em;
+}
+/*fin de l'article qui contient la map*/
+
+
+/*les départements*/
+.dep{
+	display: block;
+}
+/*fin des départements*/
+
+/* easy sont les liens dans l'article dep des départements*/
+.easy{
+	color: #336699;
+	font-weight: bold;
+	font-size: 13px;
+	}
+/*fin du easy*/
+
+ul a{
+	text-decoration: none;
+}
+
+.avantfooter{
+	display: block;
+}
+
+/*star of div for the footer*/
+.divfooter{
+	display: none;
+}
+
+
+.divfooter{
+	background: #f2f2f2;
+	display: flex;
+	justify-content: space-around;
+}
+/*end of div for the footer*/
+
+.footermobile{
+	display: none;
+}
+
+
+/*.fauxfooter{
+
+	background-color: #474747;
+	display: flex;
+	justify-content: space-around;
+}*/
+
+
+
+h3{
+	color: white;
+}
+
+
+}
+/*end of the big div*/
+
 
 
 /******************************************************none***************/
 
 
-.mapclass{
-	display: none;
-}
-
 section{
 	display: none;
 }
 
-.avantfooter{
-	display: none;
-}
 
-footer{
-	display: none;
-}
+
+
 
 
 }
