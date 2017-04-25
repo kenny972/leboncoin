@@ -61,6 +61,8 @@ header{
 
 
 /*tablette et desktop invisible en version mobile*/
+
+
 .ptablet{
 	display: none;
 }
@@ -80,8 +82,11 @@ header{
 
 /*section qui comporte les deux bouttons :blanc et bleu*/
 .annoncesrecherche{
+	display: block;
 	margin: 25px;
 	margin-bottom: 1em;
+	flex-direction: column;
+	
 }
 /*fin de la section qui comporte les deux bouttons: blanc et bleu*/
 
@@ -227,18 +232,13 @@ body{
 /*end of the header*/
 
 
-/*paragraphe mobile*/
+/*paragraphe tablette*/
 .pmobile{
 	display: block;
 }
-/*fin du paragraphe mobile*/
-
-
-/*paragraphe tablette*/
-.ptablette{
-	display: block;
-}
 /*fin du paragraphe tablette*/
+
+
 
 /*bouttons d'annonces et recherches*/
 .annoncesrecherche{
@@ -342,6 +342,10 @@ li{
 .pdesktop{
 	display: block;
 	margin: 2em;
+}
+
+.pmobile{
+	display: none;
 }
 /*fin du paragraphe*/
 

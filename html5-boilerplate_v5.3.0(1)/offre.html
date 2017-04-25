@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>leboncoin.fr</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" type="img/png" href="img/icon.png">
+</head>
+<body>
+	<!-- star of header -->
+	<header>
+		<!-- star of div container -->
+		<!-- <div class="container"> -->
+			
+			<section class="menulogo"> <!-- ici commence une section contenant la partie menu et la partie logo -->
+
+			<!-- Boutton menu en image-->
+			<article class="menuarticle">
+				<aside class="menuaside">
+					<a href="depot.html">
+						<img class="menu" src="img/menu.png" alt="menu"> <!-- image cliquable du menu -->
+					</a>
+				</aside>
+			</article>
+			<!-- fin du boutton menu en image -->
+
+
+			<!-- début du aside pour le logo leboncoin -->
+				<aside class="logoaside">
+					<figure class="figureleboncoin">
+						<a href="offre.html">
+						<img class="logo" src="img/logo.svg" alt="logo du site le bon coin"> <!-- image cliquable du logo -->
+						</a>
+					</figure>
+				</aside> <!-- fin de l'aside pour pour le logo leboncoin -->
+			</section>  <!-- ici fini une section contenant la partie menu et la partie logo --> 
+
+			<!-- star of nav -->
+			<nav class="navheader">
+				<ul>
+					<a href="">
+					<li>ACCUEIL</li>
+					</a>
+				</ul>
+				<ul>
+					<a href="">
+					<li>DEPOSER UNE ANNONCE</li>
+					</a>	
+				</ul>
+				<ul>
+					<a href="">
+					<li>OFFRES</li>
+					</a>
+				</ul>
+				<ul>
+					<a href="">
+					<li>DEMANDES</li>
+					</a>
+				</ul>
+				<ul>
+					<a href="">
+					<li>MES ANNONCES</li>
+					</a>
+				</ul>
+				<ul>
+					<a href="">
+					<li>BOUTIQUES</li>
+					</a>
+				</ul>
+			</nav>
+			<!-- end of nav -->
+			
+			<!-- aside boutton de connexion sans image : image cliquable -->
+			<aside class="connexionaside">
+				<a href="boutton sans bouton">
+					<img src="img/connexion.png" alt="boutton de connexion"> <!-- image boutton connexion -->
+				</a>
+			</aside>
+			<!--  fin de l'aside du boutton de connexion sans image : image cliquable -->
+		
+		
+	</header>
+	<!-- end of header-->
+
+
+			<!-- début des annonces -->
+
+			<h1 style="color: silver;" class="grey">Annonces: Ile-de-France </h1>
+
+
+			<p class="titleannonce">Annonces A la Une</p>
+
+			<article class="orange">
+
+				<figure>
+				<a href="#">
+					<img src="img/S.png">
+				</a>
+				</figure>
+
+				<figure>
+				<a href="#">
+					<img src="img/S1.png">
+				</a>	
+				</figure>
+
+				<figure>
+				<a href="#">
+					<img src="img/S2.png">
+				</a>	
+				</figure>
+
+			</article>
+
+
+			<select class="list" class="select" onchange="listSortingChange(this); xt_click(this,'C','8','ad_search::'+this.options[this.selectedIndex].getAttribute('data-value'),'N');">
+                            <option value="//www.leboncoin.fr/annonces/offres/ile_de_france/?sp=0" data-value="trier_par_date" selected="">Trier par : Date</option>
+                            <option value="//www.leboncoin.fr/annonces/offres/ile_de_france/?sp=1" data-value="trier_par_prix">Trier par : Prix</option>
+                        </select>
+			
+			<article class="trier">
+				<figure>
+				<a href="#">
+				<img src="img/S27.png">
+				</a>
+				</figure>
+
+				<figure>
+				<a href="#">
+				<img src="img/S28.png">
+				</a>
+				</figure>
+
+				<figure>
+				<a href="#">
+				<img src="img/S29.png">
+				</figure>
+				</a>
+            </article>            
+			<!-- fin des annonces -->
+
+			
+			<!-- input de fin de page -->
+			<input class="selectPage" name="selectPage" value="1" class="input" type="number">
+			<!-- fin de l'input de fin de page -->
+
+
+			<!-- star of the footer -->
+				<footer>
+	<article class="footermobile">
+		<p  class="pfooter">leboncoin 2006 - 2017</p>
+		<a href="#">
+			<img src="img/facebook.png">
+			<img src="img/twitter.png">
+		</a>
+	</article>
+				<!-- end of the footer -->
